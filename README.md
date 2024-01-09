@@ -1,4 +1,14 @@
-# 💤 LazyVim
+# 💤 LazyVim personal config
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+## Installation
+
+put all the repo into `~/.config/nvim/`
+
+## todo
+
+- [ ] Add CopilotChat - reported bug to author atm
+- [ ] may be add colemak keymap
+
+## Source
+
+Lazygit: [documentation](https://lazyvim.github.io/installation)
