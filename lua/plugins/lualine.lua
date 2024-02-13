@@ -1,3 +1,5 @@
+local Util = require("lazyvim.util")
+
 return {
   "nvim-lualine/lualine.nvim",
   event = "VeryLazy",
@@ -23,9 +25,9 @@ return {
     return {
       options = {
         theme = "palenight",
-        component_separators = { left = ")", right = "(" },
+        component_separators = { left = "", right = "" },
         -- component_separators = { left = "", right = "" },
-        section_separators = { left = "", right = "" },
+        section_separators = { left = "", right = "" },
         globalstatus = true,
         disabled_filetypes = { statusline = { "dashboard", "alpha", "starter" } },
       },
