@@ -29,7 +29,7 @@ return {
         -- component_separators = { left = "", right = "" },
         section_separators = { left = "", right = "" },
         globalstatus = true,
-        disabled_filetypes = { statusline = { "dashboard", "alpha", "starter" } },
+        disabled_filetypes = { statusline = { "dashboard", "alpha", "starter", "copilot.api" } },
       },
       sections = {
         lualine_a = { "mode" },

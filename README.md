@@ -6,8 +6,16 @@ put all the repo into `~/.config/nvim/`
 
 ## todo
 
-- [ ] Add CopilotChat - reported bug to author atm
-- [ ] may be add colemak keymap
+- [ ] Add Python
+- [ ] Add rust
+- [ ] Add JS
+- [ ] Add Tailwind
+- [ ] Add Terraform
+- [ ] Add Markdown
+- [ ] Add Typescript
+- [ ] Add Yaml & JSON
+- [ ] Add prettier
+- [ ] Add copilot in lualine
 
 ## Source
 
