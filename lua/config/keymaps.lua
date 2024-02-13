@@ -21,5 +21,7 @@ map("n", "<m-r>", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 -- Toggle undotree
 map("n", "<m-u>", vim.cmd.UndotreeToggle)
 
+map("n", "<M-/>", "gcc", { remap = true, silent = true, desc = "Comment line" })
+map("x", "<M-S-/>", "gc", { remap = true, silent = true, desc = "Comment selection" })
 map("n", "<leader>/", "gcc", { remap = true, silent = true, desc = "Comment line" })
 map("x", "<leader>/", "gc", { remap = true, silent = true, desc = "Comment selection" })
