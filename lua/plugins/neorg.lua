@@ -10,9 +10,9 @@ return {
         ["core.dirman"] = { -- Manages Neorg workspaces
           config = {
             workspaces = {
-              notes = "~/Documents/notes",
-              work = "~/Documents/notes/work",
-              private = "~/Documents/notes/private",
+              notes = "~/workspace/notes",
+              work = "~/workspace/notes/work",
+              private = "~/workspace/notes/private",
             },
             index = "index.norg",
             default_workspaces = "work",
