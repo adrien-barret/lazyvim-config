@@ -6,6 +6,7 @@ return {
 
       -- fancy UI for the debugger
       {
+        "nvim-neotest/nvim-nio",
         "rcarriga/nvim-dap-ui",
       -- stylua: ignore
       keys = {
