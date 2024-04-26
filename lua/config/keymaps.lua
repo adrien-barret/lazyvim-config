@@ -25,3 +25,6 @@ map("n", "<M-/>", "gcc", { remap = true, silent = true, desc = "Comment line" })
 map("x", "<M-S-/>", "gc", { remap = true, silent = true, desc = "Comment selection" })
 map("n", "<leader>/", "gcc", { remap = true, silent = true, desc = "Comment line" })
 map("x", "<leader>/", "gc", { remap = true, silent = true, desc = "Comment selection" })
+
+map("n", "<leader>o", "<leader>fF", { remap = true, silent = true, desc = "Find file" })
+map("n", "<space><space>", "<leader>,", { remap = true, silent = true, desc = "Buffers" })
