@@ -105,4 +105,6 @@ return {
       extensions = { "neo-tree", "lazy" },
     }
   end,
+
+  { import = "lazyvim.plugins.extras.lang.typescript" },
 }

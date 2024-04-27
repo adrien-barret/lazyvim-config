@@ -1,4 +1,6 @@
 return {
+
+  { import = "lazyvim.plugins.extras.lang.json" },
   {
     "b0o/SchemaStore.nvim",
     lazy = true,

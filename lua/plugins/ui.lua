@@ -1,4 +1,6 @@
 return {
+
+  { import = "lazyvim.plugins.extras.ui.mini-starter" },
   -- messages, cmdline and the popupmenu
   {
     "folke/noice.nvim",
