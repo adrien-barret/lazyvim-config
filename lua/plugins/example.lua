@@ -9,7 +9,6 @@ if true then return {} end
 -- * disable/enabled LazyVim plugins
 -- * override the configuration of LazyVim plugins
 return {
-
   -- change trouble config
   {
     "folke/trouble.nvim",

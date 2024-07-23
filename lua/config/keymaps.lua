@@ -4,6 +4,15 @@
 local map = vim.keymap.set
 map("n", "<M-e>", vim.cmd.Ex)
 
+--Base64 and gen pwd
+map("n", "<M-e>", vim.cmd.Ex)
+
+-- local b64 = require("Base64Decode")
+-- map('n', '<C-M-e>', ':lua b64.decode()<CR>', { noremap = true, silent = true })
+-- map('n', '<C-M-e>', ':B64Encode<CR>', { noremap = true, silent = true })
+-- map("n", "<M-e>", vim.cmd.Ex)
+
+
 -- Keep search terms in the middle of the screen
 map("n", "n", "nzzzv")
 map("n", "N", "Nzzzv")
