@@ -9,7 +9,8 @@ map("n", "<M-e>", vim.cmd.Ex)
 
 -- local b64 = require("Base64Decode")
 -- map('n', '<C-M-e>', ':lua b64.decode()<CR>', { noremap = true, silent = true })
--- map('n', '<C-M-e>', ':B64Encode<CR>', { noremap = true, silent = true })
+map('v', '<leader>e', ':B64Encode<CR>', { noremap = true, silent = true })
+map('v', '<leader>d', ':B64Dencode<CR>', { noremap = true, silent = true })
 -- map("n", "<M-e>", vim.cmd.Ex)
 
 
