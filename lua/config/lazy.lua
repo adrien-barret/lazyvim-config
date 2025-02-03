@@ -45,8 +45,13 @@ require("lazy").setup({
         "tarPlugin",
         "tohtml",
         "tutor",
-        "zipPlugin",
-      },
+        "zipPlugin", },
     },
   },
+
 })
+
+vim.cmd([[
+  highlight! TermBg guibg=#303446
+  autocmd TermOpen * setlocal winhighlight=Normal:TermBg
+]])

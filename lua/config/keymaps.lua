@@ -4,9 +4,6 @@
 local map = vim.keymap.set
 map("n", "<M-e>", vim.cmd.Ex)
 
---Base64 and gen pwd
-map("n", "<M-e>", vim.cmd.Ex)
-
 -- local b64 = require("Base64Decode")
 -- map('n', '<C-M-e>', ':lua b64.decode()<CR>', { noremap = true, silent = true })
 map('v', '<leader>e', ':B64Encode<CR>', { noremap = true, silent = true })
@@ -37,3 +34,11 @@ map("x", "<leader>/", "gc", { remap = true, silent = true, desc = "Comment selec
 
 map("n", "<leader>o", "<leader>fF", { remap = true, silent = true, desc = "Find file" })
 map("n", "<space><space>", "<leader>,", { remap = true, silent = true, desc = "Buffers" })
+
+map("n", "<leader>bb", LazyVim.pick("buffers"), { remap = true, silent = true, desc = "Buffers" })
+map("n", "<leader>r", LazyVim.pick("live_grep"), { remap = true, silent = true, desc = "Live Grep" })
+
+
+
+-- { "<leader>fb", "<cmd>Telescope buffers sort_mru=true sort_lastused=true<cr>", desc = "Buffers" },
+-- { "<leader>f", group = "file/find" },

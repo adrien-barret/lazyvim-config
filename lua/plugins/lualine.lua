@@ -24,7 +24,7 @@ return {
 
     return {
       options = {
-        theme = "palenight",
+        theme = "ephemeral",
         component_separators = { left = "", right = "" },
         -- component_separators = { left = "", right = "" },
         section_separators = { left = "", right = "" },

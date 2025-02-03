@@ -2,7 +2,9 @@ return {
 
   "navarasu/onedark.nvim",
 
-  { "catppuccin/nvim",          name = "catppuccin", priority = 1000 },
+  -- { "adrien-barret/ephemeral.nvim", priority = 1000,     config = true,  opts = ... },
+
+  { "catppuccin/nvim",              name = "catppuccin", priority = 1000 },
 
   {
     "uloco/bluloco.nvim",
@@ -13,15 +15,19 @@ return {
       -- your optional config goes here, see below.
     end,
   },
-  { "rose-pine/neovim",         as = "rose-pine" },
+  { "rose-pine/neovim",             as = "rose-pine" },
 
-  { "Haize-uwu/ephemeral.nvim", as = "ephemeral" },
-  --
+  { "adrien-barret/ephemeral.nvim", as = "ephemeral" },
   {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "ephemeral",
     },
   },
-
+  -- {
+  --   "adrien-barret/ephemeral-moon.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --   opts = {},
+  -- }
 }
